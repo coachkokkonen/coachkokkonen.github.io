@@ -395,15 +395,17 @@ a { color: var(--accent-dark); }
   height: 52px;
   display: grid;
   place-items: center;
-  background: var(--paper);
-  border-radius: 12px;
+  background: var(--accent);
+  border-radius: 50%;
   margin-bottom: 1.3rem;
+  box-shadow: 0 2px 8px rgba(176,123,46,0.25);
 }
 
 .card .card-icon svg {
-  width: 26px;
-  height: 26px;
-  stroke: var(--accent-dark);
+  width: 24px;
+  height: 24px;
+  stroke: #fff;
+  stroke-width: 2;
 }
 
 .card h3 { margin-bottom: 0.7rem; }
